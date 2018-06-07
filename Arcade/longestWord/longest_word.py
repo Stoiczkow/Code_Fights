@@ -2,7 +2,7 @@ import string
 
 def longestWord(text):
     result = ''
-    print(string.punctuation)
+
     for punct in string.punctuation:
         text = text.replace(punct, ' ')
         
